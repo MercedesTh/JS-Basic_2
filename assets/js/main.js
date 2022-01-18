@@ -15,10 +15,9 @@ console.log("=== Aufgabe 2 js-einführung_2_inner HTML_Lev1_3 ===")
 
 
 let gallery = document.getElementById("gallery");
+gallery.style.display = "flex";
 
-gallery.innerHTML = '<figure> <img src="https://images.unsplash.com/photo-1642452964367-58cb60731412?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80" alt=""> <figcaption>Fig. 1</figcaption> </figure> <figure> <img src="https://images.unsplash.com/photo-1642452964367-58cb60731412?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80" alt=""> <figcaption>Fig. 2</figcaption> </figure> <figure> <img src="https://images.unsplash.com/photo-1642452964367-58cb60731412?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80" alt=""> <figcaption>Fig. 3</figcaption> </figure>';
-
-gallery.style.width = "30vw";
+gallery.innerHTML = '<figure> <img width="100%" src="https://images.unsplash.com/photo-1642452964367-58cb60731412?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80" alt=""> <figcaption>Fig. 1</figcaption> </figure> <figure style="display:inline-block"> <img width="100%" src="https://images.unsplash.com/photo-1642452964367-58cb60731412?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80" alt=""> <figcaption>Fig. 2</figcaption> </figure> <figure style="display:inline-block"> <img width="100%" src="https://images.unsplash.com/photo-1642452964367-58cb60731412?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80" alt=""> <figcaption>Fig. 3</figcaption> </figure>';
 
 
 
